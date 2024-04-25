@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: dirty;
+	src: url(Mansalva-Regular.ttf);
+}
+
+body {
+	font-family: dirty;
+	color: darkblue;
+	background: aliceblue;
+}
+
+
+.wrapped {
+	width: 98%;
+	margin: 0 auto;
+}
+
+
+.banner {
+	background: linear-gradient(to right, #33ccff 0%, #ccffff 50%);
+	border: 4px solid;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+}
+
+.head {
+	position: fixed;
+	right: 300px;
+	top: 20px;
+	font-size: 55px;
+}
+
+.subbanner {
+	text-align: left;
+	background: steelblue;
+	border: 2px solid;
+	width: 100%;
+	left: 200px;
+	top: 85px;
+	position: fixed;
+	font-size: 35px;
+}
+
+.drop {
+	background: gray;
+	border: 2px solid;
+	top: 85px;
+	height: 500px;
+	width: 180px;
+	position: fixed;
+	flex-direction: column;
+}
+
+.dropsub {
+	background: steelblue;
+	border: 2px solid;
+	top: 85px;
+	width: 180px;
+	left: 1%;
+	position: fixed;
+	flex-direction: column;
+}
+
+.eyepic {
+	top: 590px;
+	position: fixed;
+}
+
+.pic {
+	left: 200px;
+	top: 150px;
+	position: fixed;
+}
+
+.button {
+	background: gray;
+	border: 2px solid;
+	top: 500px;
+	left: 200px ;
+	width: 340px;
+	position: fixed;
+	font-size: 25px;
+	text-align: center;
+}
+.words {
+	top: 600px;
+	left: 200px ;
+	width: 340px;
+	position: fixed;
+	font-size: 25px;
+	text-align: center;
+}
+
+.info {
+	background: gray;
+	border: 2px solid;
+	top: 150px;
+	left: 550px ;
+	height: 600px;
+	width: 60%;
+	position: fixed;
+	flex-direction: column;
+	font-size: 25px;
+}
+
+.infosub {
+	background: steelblue;
+	font-size: 35px;
+	border: 2px solid;
+	top: 150px;
+	left: 550px ;
+	width: 60%;
+	position: fixed;
+	flex-direction: column;
+}
